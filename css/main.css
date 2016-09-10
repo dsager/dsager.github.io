@@ -7,41 +7,6 @@ body {
     overflow-y: scroll;
 }
 
-a.anchor{
-    display: block;
-    position: relative;
-    top: -50px;
-    visibility: hidden;
-}
-
-.top-nav {
-    background-color: #111;
-    color: #FFF;
-    position: fixed;
-    top: 0;
-    height: 40px;
-    width: 100%;
-    vertical-align: middle;
-    z-index: 1000;
-    box-shadow: 0 4px 10px #181818;
-}
-
-.top-nav-list {
-    padding: 0;
-    margin-top: 10px;
-}
-
-.top-nav-list a {
-    padding: 0 5px;
-}
-
-.top-nav-list li {
-    padding: 0;
-    display: inline-block;
-    vertical-align: baseline;
-    list-style-type: none;
-}
-
 @media (min-width:768px) {
     .top-logo {
         margin: 20px;
@@ -60,7 +25,7 @@ a.anchor{
 }
 
 .page-container {
-    margin-top: 40px;
+    margin-top: 0px;
     min-height: 100%;
     width: 100%;
     position: relative;
@@ -72,16 +37,6 @@ a.anchor{
     margin-top: 15px;
     display: block;
     text-align: center;
-}
-
-.black-bg {
-    background-color: #000;
-}
-
-.info-box {
-    font-size: 16px;
-    font-weight: bold;
-    padding: 15px;
 }
 
 .pub-list {
@@ -167,12 +122,4 @@ a.anchor{
 
 .button-icon-em {
     background-image: url("../images/icons/icon_em.png");
-}
-
-.button-icon-xi {
-    background-image: url("../images/icons/icon_xi.png");
-}
-
-.button-icon-gu {
-    background-image: url("../images/icons/icon_gu.png");
 }
