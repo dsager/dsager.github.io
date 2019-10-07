@@ -3,14 +3,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <meta name="description" content="A Software Engineer's Website, nothing special." />
-  <meta name="keywords" content="Software Development, Software Engineering, Software Architecture, Programming" />
-  <meta name="author" content="Daniel Sager" />
-  <title>Daniel Sager - Software Engineer</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
-  <link href="css/main.min.css" rel="stylesheet" media="screen" />
-  <link rel="shortcut icon" href="images/icons/favicon.ico" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <meta name="description"
+        content="A guy's personal website, a bit like we had them in the 90s..."/>
+  <meta name="keywords"
+        content="Software Engineering & Architecture, Programming, Engineering Management, International Development"/>
+  <meta name="author" content="Daniel Sager"/>
+  <title>Daniel Sager's personal website</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+  <link href="css/main.css" rel="stylesheet" media="screen"/>
+  <link rel="shortcut icon" href="images/icons/favicon.ico"/>
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -21,103 +24,138 @@
 <div class="page-container">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 text-right">
-        <a href="/">
-          <div class="top-logo pull-right"></div>
-        </a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12">
-        <p class="lead">
-          I'm Daniel. A Software Engineer. And Freelancer.
+      <div class="col-xs-12 col-md-8">
+        <h2>
+          Daniel's personal website
+        </h2>
+        <p>
+          I work as a software engineering manager at
+          <a href="https://www.devex.com">Devex</a> in Barcelona, Spain.
+        </p>
+        <p>
+          Here are some profiles of mine around the web:
+        <ul>
+          <li><a href="https://www.linkedin.com/in/dsager">LinkedIn</a></li>
+          <li><a href="https://www.twitter.com/danisager">Twitter</a></li>
+          <li>
+            <a href="https://www.github.com/dsager">GitHub</a>
+            (<a href="https://gist.github.com/dsager/public">Gists</a>)
+          </li>
+          <li><a href="https://keybase.io/dsager">Keybase</a></li>
+          <li><a href="https://www.devex.com/people/daniel-s-881936">Devex</a>
+          </li>
+        </ul>
         </p>
       </div>
+      <div class="col-xs-12 col-md-4 text-center"><img class="photo"/></div>
     </div>
 
     <div class="row">
       <div class="col-xs-12">
         <p>
-          I started working in the software development industry in the early 2000s.
+          This website is where I collect miscellaneous content related to my
+          work, for example tech talks & blog posts I created over the years for
+          random occasions.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <h2>Tech talks</h2>
+        <ul>
+          <li>
+            <h4>
+              Nursing grown-up Ruby Applications
+            </h4>
+            <small>
+              <a class="reference"
+                 href="https://www.meetup.com/Barcelona-on-Rails/events/234047023">
+                Barcelona on Rails Meetup (20 Oct 2016)
+              </a>
+              <br/>
+              I showcase two techniques to maintain your (Ruby) application
+              in the long run: a technical back-log (to keep things in order)
+              and static code analysis (what are code metrics and why are they
+              useful)
+              <a class="reference"
+                 href="https://docs.google.com/a/sager1.de/presentation/d/1wBywxFQZ2WbWafpqEsF7IR8n2Xqz14IrvAiaihKlGpQ">
+                (Slides)
+              </a>
+            </small>
+          </li>
+          <li>
+            <h4>Monolith vs. SOA - Some Middle Ground</h4>
+            <small>
+              <a class="reference"
+                 href="http://www.meetup.com/Barcelona-on-Rails/events/223494960">
+                Barcelona on Rails Meetup (16 Jul 2015)
+              </a>
+              <br/>
+              In this talk I describe the application architecture at Devex,
+              based on a refactoring example I show how we try to make the
+              best of a situation dominated by technical constraints.
+              A situation that I find to be quite common to many advanced
+              software projects.
+              <a class="reference" href="talks/2015-monolith-vs-soa/index.html">
+                (Slides)
+              </a>
+            </small>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <h2>Posts or articles</h2>
+        <ul>
+          <li>
+            <a href="https://medium.com/@dsager/data-skills-for-the-average-software-engineer-a6ee651cc048">
+              Data skills for the average Software Engineer
+            </a>
+            <br/>
+            <small class="date-label">13 Feb 2017</small>
+          </li>
+          <li>
+            <a href="https://gist.github.com/dsager/fc11ba67574947cbc3c9">
+              The Devex NewsLab: Using Google Docs as a CMS
+            </a>
+            <br/>
+            <small class="date-label">12 Jan 2015</small>
+          </li>
+          <li>
+            <a href="https://gist.github.com/dsager/0ff837ead5cf310b1c1c">
+              One in a has_many - Access Special Association Objects in
+              ActiveRecord
+            </a>
+            <br/>
+            <small class="date-label">16 Sep 2014</small>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>About me</h2>
+        <p>
+          I starting out in the software industry in the early 2000s.
           Since then I worked on a decent amount of software projects,
-          performing a variety of tasks, while using ever-changing tools and technologies.
-          In 2010 I obtained a Master's Degree in Applied Computer Science from the Hochschule Hannover, Germany.
-          As part of a double diploma program I also graduated with a Diploma in Software Engineeing from the Universidad Politécnica de Madrid, Spain.
-          If you're interested you'll find more details on my
-          <a href="https://www.linkedin.com/in/dsager">LinkedIn profile</a>.
+          performing a variety of tasks, using all kinds of different tools and
+          technologies.
         </p>
         <p>
-          This website is where I collect different things related to my work.
-          For now this is my Twitter feed which mainly contains links to stuff that I read and consider worth sharing.
-          There's also some content I created, basically tech talks & posts.
+          In 2010 I obtained a Master's Degree in Applied Computer Science from
+          the Hochschule Hannover, Germany.
+          As part of a double diploma program I also graduated with a Diploma in
+          Software Engineering from the Universidad Politécnica de Madrid,
+          Spain.
+          If you're interested you'll find more details on my LinkedIn profile.
         </p>
         <p>
-          Normally I'm happy to work with you in either German, English or Spanish.
-          Currently I work on a long-term project and am therefore interested in neither contracts nor positions.
-          If you want to get in touch anyway, please use one of the links at the bottom of this page.
+          Since 2013 I work for Devex, a media & data platform for the
+          international development community. I helped transform the
+          engineering department and its processes towards a more agile workflow
+          and application lifecycle management.
         </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="row">
-          <div class="col-xs-12">
-            <h2>Tech Talks</h2>
-            <ul class="list-unstyled">
-              <li>
-                <small class="date-label">
-                  20 Oct 2016
-                </small>
-                <a href=" https://docs.google.com/a/sager1.de/presentation/d/1wBywxFQZ2WbWafpqEsF7IR8n2Xqz14IrvAiaihKlGpQ">Nursing grown-up Ruby Applications</a>
-                <br/>
-                <small>
-                  I showcase two techniques to maintain your (Ruby) application in the long run:
-                  <ul>
-                    <li>how a technical back-log can help you to keep things in order</li>
-                    <li>what are code metrics and why are they useful</li>
-                  </ul>
-                  I also gave this talk at the <a href="https://www.meetup.com/Barcelona-on-Rails/events/234047023">Barcelona on Rails Meetup</a>.
-                </small>
-              </li>
-              <li>
-                <small class="date-label">
-                  16 Jul 2015
-                </small>
-                <a href="talks/2015-monolith-vs-soa/index.html">Monolith vs. SOA - Some Middle Ground</a>
-                <br/>
-                <small>
-                  In this talk I describe the application architecture at <a href="https://www.devex.com">Devex</a>,
-                  based on a refactoring example I show how we try to make the best of a situation dominated by technical constraints.
-                  A situation that I find to be quite common to many advanced software projects.
-                  I gave this talk at the <a href="http://www.meetup.com/Barcelona-on-Rails/events/223494960">Barcelona on Rails Meetup</a>.
-                </small>
-              </li>
-            </ul>
-          </div>
-          <div class="col-xs-12">
-            <h2>Posted Content</h2>
-            <ul class="list-unstyled">
-              <li>
-                <small class="date-label">12 Jan 2015</small>
-                <a href="https://gist.github.com/dsager/fc11ba67574947cbc3c9">The Devex NewsLab: Using Google Docs as a CMS</a>
-              </li>
-              <li>
-                <small class="date-label">16 Sep 2014</small>
-                <a href="https://gist.github.com/dsager/0ff837ead5cf310b1c1c">One in a has_many - Access Special Association Objects in ActiveRecord</a>
-              </li>
-            </ul>
-            <p>
-              <strong>
-                <a href="https://gist.github.com/dsager/public">See all my published Gists on GitHub</a>
-              </strong>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/danisager" data-widget-id="502355683711275008" data-tweet-limit="5">&commat;danisager on Twitter</a>
       </div>
     </div>
   </div>
@@ -134,15 +172,23 @@
         </div>
         <div class="col-xs-12 col-sm-6 text-center">
           <h3>Get in touch!</h3>
-          <a class="contact-icon" href="mailto:&#119;&#101;&#098;&#109;&#097;&#115;&#116;&#101;&#114;&#064;&#115;&#097;&#103;&#101;&#114;&#049;&#046;&#100;&#101;"><i class="button-icon-em" title="Old school! Send me an e-mail!"></i></a>
-          <a class="contact-icon" href="https://twitter.com/danisager"><i class="button-icon-tw" title="Follow me on Twitter"></i></a>
-          <a class="contact-icon" href="https://github.com/dsager"><i class="button-icon-gh" title="My GitHub Profile"></i></a>
-          <a class="contact-icon" href="https://keybase.io/dsager"><i class="button-icon-kb" title="My Keybase Profile"></i></a>
-          <a class="contact-icon" href="https://www.linkedin.com/in/dsager"><i class="button-icon-li" title="My LinkedIn Profile"></i></a>
+          <a class="contact-icon"
+             href="mailto:&#119;&#101;&#098;&#109;&#097;&#115;&#116;&#101;&#114;&#064;&#115;&#097;&#103;&#101;&#114;&#049;&#046;&#100;&#101;"><i
+              class="button-icon-em" title="Old school! Send me an e-mail!"></i></a>
+          <a class="contact-icon" href="https://twitter.com/danisager"><i
+              class="button-icon-tw" title="Follow me on Twitter"></i></a>
+          <a class="contact-icon" href="https://github.com/dsager"><i
+              class="button-icon-gh" title="My GitHub Profile"></i></a>
+          <a class="contact-icon" href="https://keybase.io/dsager"><i
+              class="button-icon-kb" title="My Keybase Profile"></i></a>
+          <a class="contact-icon" href="https://www.linkedin.com/in/dsager"><i
+              class="button-icon-li" title="My LinkedIn Profile"></i></a>
         </div>
         <div class="col-xs-12 col-sm-3 copyright">
-          &copy; Daniel Sager 2016
-          <span class="hidden-xs visible-lg-block visible-md-block visible-sm-block"><a href="legalnotice.html">About this Website</a></span>
+          &copy; Daniel Sager 2019
+          <span
+              class="hidden-xs visible-lg-block visible-md-block visible-sm-block"><a
+              href="legalnotice.html">About this Website</a></span>
           <span class="visible-xs-inline">&dash; <a href="legalnotice.html">About</a></span>
         </div>
       </div>
@@ -150,6 +196,5 @@
   </div>
 </footer>
 
-<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </body>
 </html>
